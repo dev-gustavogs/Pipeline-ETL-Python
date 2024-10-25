@@ -1,0 +1,12 @@
+datawarehouse:
+  outputs:
+    dev:
+      dbname: databaseteste_44aj
+      host: dpg-csdcge9u0jms73bahm70-a.oregon-postgres.render.com
+      pass: "9dEtbRdlwA3E2B4FBb9OpucVvqzdyI4l"
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgre123
+  target: dev
