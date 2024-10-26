@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: databaseteste_44aj
+    schema: public
+    tables:
+      - name: commodities
+        description: "tabela que contém dados historicos de commodities"
+        columns:
+          - name: Date
+            description: "Data de observação"
+          - name: Close
+            description: "Preço de fechamento de commodity"
+          - name: simbolo
+            description: "Simbolo da commodity"
+      - name: movimentacao_commodities
+        description: "tabela seed"
+        columns:
+          - name: Date
+            description: "Data de observação"
+          - name: Symbol
+            description: "Simbolo da commodity"
+          - name: action
+            description: "Tipo de transição (buy/sell)"
+          - name: quantity
+            description: "Quantidade transacionada"
