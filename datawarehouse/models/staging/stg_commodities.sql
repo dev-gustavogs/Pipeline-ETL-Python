@@ -5,7 +5,7 @@ with source as (
     "Date",
     "Close",
     simbolo
-  from {{ source ('databaseteste_44aj', 'commodities') }}
+  from {{ source (databaseteste_44aj, 'commodities') }}
 ),
 
 --renamed
