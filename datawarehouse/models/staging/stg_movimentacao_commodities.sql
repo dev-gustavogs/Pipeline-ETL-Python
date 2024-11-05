@@ -7,7 +7,7 @@ with source as (
         action,
         quantity
     from 
-        {{ source('databaseteste_44aj', 'movimentacao_commodities') }}
+        {{ source("databaseteste_44aj",'movimentacao_commodities') }}
 ),
 
 renamed as (
