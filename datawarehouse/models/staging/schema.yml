@@ -20,4 +20,4 @@ models:
       - name: acao
         description: "Tipo de transação (buy/sell)"
       - name: quantidade
-        description: "Quantidade transacionada"
+        description: "Quantidade transacionada teste para commit "
